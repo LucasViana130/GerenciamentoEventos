@@ -1,0 +1,13 @@
+package fiap.com.br.eventos.participant;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface ParticipantRepository extends JpaRepository<Participant, Long> {
+
+    List<Participant> findByNameContainingIgnoreCase(String name);
+
+    boolean existsByEmail(String email);
+
+}
