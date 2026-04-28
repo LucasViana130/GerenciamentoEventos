@@ -1,3 +1,5 @@
+#Grupo : Lucas Viana  rm: 563254 , Deryk de Souza  rm:563412 , Vinicius Paschoeto  rm: 563089
+
 # Eventos API
 
 Sistema de Gerenciamento de Eventos desenvolvido com Spring Boot como projeto acadêmico da disciplina Java Advanced — FIAP.
